@@ -16,3 +16,5 @@ During the first week of training, we delved into several key topics, including 
 ## EXCEL TOOLS AND DATA REPORTING
 We explored Excel in depth, starting with data cleaning and manipulation using various formulas. One of the key focuses was learning how to manage data entry and apply data validation techniques to help minimize errors during the entry process. We practiced a variety of functions, including SUM, AVERAGE, SUMIF, IFS, MAXIF, and more. Cell referencing was introduced during our session on lookup functions. In our final lecture on Excel, we focused on reporting, where we covered how to create Pivot Tables, Pivot Charts, and build comprehensive reports using these tools.
 
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel1.png)
+
