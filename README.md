@@ -22,11 +22,11 @@ During the first week of training, we delved into several key topics, including 
 
 ## Data Storage
 It can happen in two main ways:
-1. **On-Premises**:  
+1. *On-Premises*:  
    - Data is stored within the organization's servers.
    - Accessible only from within the organization.
    - Offers more control and security but requires more maintenance.
-2. **Cloud**:  
+2. *Cloud*:  
    - Data is stored remotely in data centers accessed via the internet.
    - Accessible from anywhere with an internet connection.
    - Flexible and scalable but relies on external service providers.
@@ -100,7 +100,27 @@ Key Features Learned in SQL: SQL Operators, SQL Aggregation functions, SQL Set O
 ![SQL_O](https://github.com/user-attachments/assets/f495c7f5-8864-45ab-8638-77ec13b25fe9)
 
 ## SQL Syntax
-'''SQL
-   create database LITA_DB
-'''
+```SQL
+   CREATE database LITA_DB
+```
+
+```SQL
+   SELECT * FROM Employee
+```
+###Creating Database and Table
+![](SQL1.png)
+### SQL Union
+![](SQL2.png)
+SQL Views
+![](SQL3.png)
+SQL Case
+![](SQL4.png)
+SQL Join
+![SQL_JOIN](https://github.com/user-attachments/assets/2dc3a0ee-2a3e-444d-b1a6-11b3692a10c7)
+SQL Operators
+![SQL_Operators](https://github.com/user-attachments/assets/14ac3b3e-f6b2-4af4-b74f-995abf4fc1cb)
+
+During our final lecture, we successfully imported a CSV file into SQL, where I had the opportunity to explore and manipulate the dataset using several SQL operators. This involved performing queries to filter, sort, and aggregate the data, which helped me gain a deeper understanding of how to extract meaningful insights from raw data using SQL. The hands-on experience of applying these operators reinforced my learning and enhanced my data analysis skills.
+
+
 
