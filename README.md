@@ -121,6 +121,7 @@ SQL Operators
 ![SQL_Operators](https://github.com/user-attachments/assets/14ac3b3e-f6b2-4af4-b74f-995abf4fc1cb)
 
 During our final lecture, we successfully imported a CSV file into SQL, where I had the opportunity to explore and manipulate the dataset using several SQL operators. This involved performing queries to filter, sort, and aggregate the data, which helped me gain a deeper understanding of how to extract meaningful insights from raw data using SQL. The hands-on experience of applying these operators reinforced my learning and enhanced my data analysis skills.
+[](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/SQL_Project.sql)
 
 
 
