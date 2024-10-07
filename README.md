@@ -7,6 +7,10 @@
 
 [Tools Used](#tools-used)
 
+[Microsoft Excel Class](#microsoft-excel-class)
+
+[SQL Class](#sql-class)
+
 ## FOUNDATION OF DATA
 The foundation of data refers to the basic principles and concepts that underpin how data is collected, managed, analyzed, and utilized in decision-making processes.
 During the first week of training, we delved into several key topics, including data literacy, data generation, data sources, data structure, data storage, and data analysis. I gained an understanding of how organizations operate two primary systems: operational systems, which handle day-to-day transactions, and analytic systems, which focus on data insights and decision-making. A significant part of the discussions was centered on how to efficiently restructure and manage data using the ETL (Extract, Transform, Load) process, which plays a crucial role in transforming raw data into meaningful insights.
@@ -46,7 +50,57 @@ Data Analysis helps businessess make informed decisions, understand customer beh
 ## MICROSOFT EXCEL CLASS
 
 ### Excel Tools and Data Reporting
-We explored Excel in depth, starting with data cleaning and manipulation using various formulas. One of the key focuses was learning how to manage data entry and apply data validation techniques to help minimize errors during the entry process. We practiced a variety of functions, including SUM, AVERAGE, SUMIF, IFS, MAXIF, and more. Cell referencing was introduced during our session on lookup functions. In our final lecture on Excel, we focused on reporting, where we covered how to create Pivot Tables, Pivot Charts, and build comprehensive reports using these tools.
+We explored Excel in depth, starting with data cleaning and manipulation using various formulas. One of the key focuses was learning how to manage data entry and apply data validation techniques to help minimize errors during the entry process. We practiced a variety of functions:- Arithmetic Functions, Logical Functions, Text Functions and Lookup Functions. Cell referencing was introduced during our session on lookup functions. In our final lecture on Excel, we focused on reporting, where we covered how to create Pivot Tables, Pivot Charts, and build comprehensive reports using these tools.
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel1.png)
+
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel4.png)
+
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel6.png)
+
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel7.png)
+
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/EXCEL_PROJECT.jpg)
+
+
+## SQL CLASS
+SQL (Structured Query Language) is a standard programming language specifically designed for managing, querying, and manipulating relational databases. SQL stands for Structured Query Language. 
+
+## SQL Commands
+ - SQL commands are instructions. It is used to communicate with the database.
+ - It is also used to perform specific tasks, functions, and queries of data.
+ - SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission
+for users.
+### Types of SQL Commands
+There are five types of SQL commands:
+ - DDL: Data Definition Language
+ - DML: Data Manipulation Language
+ - DCL: Data Control Language
+ - TCL: Transaction Control Language
+ - DQL: Data Query Language
+
+## Key SQL Concepts
+1. Databases and Tables
+      * Database: A structured collection of data. Think of it as a file cabinet containing organized information.
+      * Table: A structured format within a database that consists of rows and columns (similar to Excel spreadsheets). Each row represents a record, and each column represents a field (attribute) within the data.
+2. SQL Queries A query is a request for data or information from a database. It allows users to retrieve, insert, update, or delete data from database tables.
+3. Data Types Every column in a table has a data type that defines the kind of data it can hold:Numeric Data Types, Character String Data Types, Binary Data Types, Date and Time Data Types.
+
+## SQL Keys
+They are fundamental concepts in relational database design and management. They are used to uniquely identify records within tables and establish relationships between different tables. Understanding SQL keys is essential for maintaining data integrity and enforcing constraints within a database.
+![Screenshot 2024-10-07 194402](https://github.com/user-attachments/assets/f62bfde9-3f43-438a-be64-0ca763f63079)
+![Screenshot 2024-10-07 194430](https://github.com/user-attachments/assets/87388655-81b0-4919-9437-a96b50403d45)
+
+## SQL Features
+These features make SQL a versatile and essential language for working with databases. Whether you're querying data, modifying structures, or ensuring data integrity, SQL provides the necessary tools and capabilities.
+Key Features Learned in SQL: SQL Operators, SQL Aggregation functions, SQL Set Operations, SQL Case When Statement, SQL Joins, SQL Clauses, SQL View.
+![SQL_A](https://github.com/user-attachments/assets/1458871a-6b39-4a75-9c8a-d27fb2d47a5d)
+![SQL_C](https://github.com/user-attachments/assets/31354aee-869e-4ced-8b09-84828136ee44)
+![SQL_J](https://github.com/user-attachments/assets/b17866e0-8ab9-41cb-9d20-0dcf5e08e3c8)
+![SQL_O](https://github.com/user-attachments/assets/f495c7f5-8864-45ab-8638-77ec13b25fe9)
+
+## SQL Syntax
+'''SQL
+   create database LITA_DB
+'''
 
