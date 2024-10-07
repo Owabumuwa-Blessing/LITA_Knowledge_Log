@@ -11,6 +11,10 @@
 
 [SQL Class](#sql-class)
 
+[SQL Syntax](#sql-syntax)
+
+[GitHub Class](#github-class)
+
 ## FOUNDATION OF DATA
 The foundation of data refers to the basic principles and concepts that underpin how data is collected, managed, analyzed, and utilized in decision-making processes.
 During the first week of training, we delved into several key topics, including data literacy, data generation, data sources, data structure, data storage, and data analysis. I gained an understanding of how organizations operate two primary systems: operational systems, which handle day-to-day transactions, and analytic systems, which focus on data insights and decision-making. A significant part of the discussions was centered on how to efficiently restructure and manage data using the ETL (Extract, Transform, Load) process, which plays a crucial role in transforming raw data into meaningful insights.
@@ -127,5 +131,6 @@ During our final lecture, we successfully imported a CSV file into SQL, where I 
 
 ## GITHUB CLASS
 GitHub has played a crucial role in my data analysis journey with The Incubator Hub, where I learned to create repositories that facilitate the management, documentation, and sharing of my projects.
+![Screenshot 2024-10-07 231433](https://github.com/user-attachments/assets/a9b765a9-ba66-4868-a9ae-afd18e775517)
 
 This documentation reflects my current progress in my learning journey. I have gained valuable skills in data analysis and GitHub, and I am particularly excited about the upcoming Power BI training. I am committed to continuing my growth and applying my knowledge to future projects. The best is yet to come! Thank you 🥰
