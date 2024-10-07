@@ -107,21 +107,25 @@ Key Features Learned in SQL: SQL Operators, SQL Aggregation functions, SQL Set O
 ```SQL
    SELECT * FROM Employee
 ```
-###Creating Database and Table
+### Creating Database and Table
 ![](SQL1.png)
 ### SQL Union
 ![](SQL2.png)
-SQL Views
+### SQL Views
 ![](SQL3.png)
-SQL Case
+### SQL Case
 ![](SQL4.png)
-SQL Join
+### SQL Join
 ![SQL_JOIN](https://github.com/user-attachments/assets/2dc3a0ee-2a3e-444d-b1a6-11b3692a10c7)
-SQL Operators
+### SQL Operators
 ![SQL_Operators](https://github.com/user-attachments/assets/14ac3b3e-f6b2-4af4-b74f-995abf4fc1cb)
 
 During our final lecture, we successfully imported a CSV file into SQL, where I had the opportunity to explore and manipulate the dataset using several SQL operators. This involved performing queries to filter, sort, and aggregate the data, which helped me gain a deeper understanding of how to extract meaningful insights from raw data using SQL. The hands-on experience of applying these operators reinforced my learning and enhanced my data analysis skills.
-[](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/SQL_Project.sql)
 
+[Here](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/SQL_Project.sql) is a link to the SQL script.
+![](SQL8.png)
 
+## GITHUB CLASS
+GitHub has played a crucial role in my data analysis journey with The Incubator Hub, where I learned to create repositories that facilitate the management, documentation, and sharing of my projects.
 
+This documentation reflects my current progress in my learning journey. I have gained valuable skills in data analysis and GitHub, and I am particularly excited about the upcoming Power BI training. I am committed to continuing my growth and applying my knowledge to future projects. The best is yet to come! Thank you 🥰
