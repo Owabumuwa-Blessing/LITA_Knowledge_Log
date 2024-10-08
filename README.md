@@ -86,7 +86,7 @@ Fields in the Dataset:
 ![EXCEL_P](https://github.com/user-attachments/assets/0695549c-461d-488a-97fb-f0c95618bd05)
 
 I am analyzing sales performance across different dimensions. The data was collected from various regions and markets in Nigeria, focusing on four lines of business.
-![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/EXCEL_PROJECT.jpg)
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/EXCEL-DASHBOARD.png)
 
 
 ## SQL CLASS
