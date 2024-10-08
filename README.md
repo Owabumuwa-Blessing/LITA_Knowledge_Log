@@ -89,14 +89,18 @@ Fields in the Dataset:
 ![EXCEL_P](https://github.com/user-attachments/assets/0695549c-461d-488a-97fb-f0c95618bd05)
 
 ## Visualization
+### Pivot Table
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel9.png)
-
-![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel10.png)
 
 ![REV_UNITS](https://github.com/user-attachments/assets/f005135d-8442-4e25-a956-6e73719f6b4f)
 
+### Pivot Chart
+![Charts](https://github.com/user-attachments/assets/168e1d7b-14bb-417a-b5ba-e96554e02ee5)
+
+
+
 ### Sales Report Dashboard
-![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/EXCEL-DASHBOARD.png)
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Sales-Report-Dashboard.png)
 
 ## Observation and Conclusion
 **Revenue by Region:** The revenue analysis by region highlights the North East as the most profitable area, while the South West and South South also contribute significantly. The North Central region, however, presents an opportunity for further development. Targeted marketing strategies and tailored approaches to increase engagement in lower-performing regions could help optimize overall revenue across the country.
@@ -112,10 +116,6 @@ Fields in the Dataset:
    * Low Transaction Category: Despite accounting for the largest number of units sold (14,763 units), the low category generates less revenue compared to the medium category. This suggests that items in this category are priced lower, which impacts the total revenue generated, even though sales volume is high.
    * Medium Transaction Category: This category contributes the largest share of the overall revenue. Even though it ranks second in terms of units sold (12,016 units), the revenue it generates is the highest. This could imply that items in the medium category have a balanced mix of volume and pricing, making it a key driver of revenue.
    * High Transaction Category: Although this category has the lowest number of units sold (4,020 units), it still contributes a notable share of the revenue, which indicates that the items in this category are of higher value, generating more revenue per transaction. However, since fewer units are sold, its contribution to the overall revenue is the smallest.
-
-
-In conclusion, these charts provide a comprehensive view of the business's performance across different regions, categories, time periods, and product types. By leveraging these insights, decision-makers can optimize operations, enhance customer satisfaction, and drive sustained revenue growth.
-
 
 ## SQL CLASS
 SQL (Structured Query Language) is a standard programming language specifically designed for managing, querying, and manipulating relational databases. SQL stands for Structured Query Language. 
