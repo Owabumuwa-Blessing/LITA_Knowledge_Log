@@ -72,6 +72,7 @@ We explored Excel in depth, starting with data cleaning and manipulation using v
 
 ## Introduction
 I am analyzing sales performance across different dimensions. The data was collected from various regions and markets in Nigeria, focusing on four lines of business.
+
 Fields in the Dataset:
  - **Region:** Geographic area.
  - **Market:** State the store operates in.
@@ -88,7 +89,6 @@ Fields in the Dataset:
 ### Data Manipulation
 ![EXCEL_P](https://github.com/user-attachments/assets/0695549c-461d-488a-97fb-f0c95618bd05)
 
-## Visualization
 ### Pivot Table
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel9.png)
 
@@ -96,8 +96,6 @@ Fields in the Dataset:
 
 ### Pivot Chart
 ![Charts](https://github.com/user-attachments/assets/168e1d7b-14bb-417a-b5ba-e96554e02ee5)
-
-
 
 ### Sales Report Dashboard
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Sales-Report-Dashboard.png)
