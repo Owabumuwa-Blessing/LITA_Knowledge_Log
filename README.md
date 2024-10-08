@@ -69,7 +69,6 @@ We explored Excel in depth, starting with data cleaning and manipulation using v
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel7.png)
 
 ## MICROSOFT EXCEL PROJECT
-
 ## Introduction
 I am analyzing sales performance across different dimensions. The data was collected from various regions and markets in Nigeria, focusing on four lines of business.
 
@@ -175,7 +174,6 @@ Key Features Learned in SQL: SQL Operators, SQL Aggregation functions, SQL Set O
 During our final lecture, we successfully imported a CSV file into SQL, where I had the opportunity to explore and manipulate the dataset using several SQL operators. This involved performing queries to filter, sort, and aggregate the data, which helped me gain a deeper understanding of how to extract meaningful insights from raw data using SQL. The hands-on experience of applying these operators reinforced my learning and enhanced my data analysis skills.
 
 ## SQL PROJECT
-
 [Here](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/SQL_Project.sql) is a link to the SQL script.
 ![](SQL8.png)
 
