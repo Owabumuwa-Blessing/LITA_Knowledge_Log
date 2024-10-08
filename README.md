@@ -9,13 +9,13 @@
 
 [Microsoft Excel Class](#microsoft-excel-class)
 
-[Microsoft Excel Project](#microsoft-project)
+[Microsoft Excel Project](#microsoft-excel-project)
 
 [SQL Class](#sql-class)
 
 [SQL Syntax](#sql-syntax)
 
-[SQL Project](#sql-sproject)
+[SQL Project](#sql-project)
 
 [GitHub Class](#github-class)
 
@@ -69,6 +69,7 @@ We explored Excel in depth, starting with data cleaning and manipulation using v
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel7.png)
 
 ## MICROSOFT EXCEL PROJECT
+
 ## Introduction
 I am analyzing sales performance across different dimensions. The data was collected from various regions and markets in Nigeria, focusing on four lines of business.
 
