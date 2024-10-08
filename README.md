@@ -69,6 +69,9 @@ We explored Excel in depth, starting with data cleaning and manipulation using v
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel7.png)
 
 ## MICROSOFT EXCEL PROJECT
+
+## Introduction
+I am analyzing sales performance across different dimensions. The data was collected from various regions and markets in Nigeria, focusing on four lines of business.
 Fields in the Dataset:
  - **Region:** Geographic area.
  - **Market:** Market segment the store operates in.
@@ -85,9 +88,14 @@ Fields in the Dataset:
 ### Data Manipulation
 ![EXCEL_P](https://github.com/user-attachments/assets/0695549c-461d-488a-97fb-f0c95618bd05)
 
-I am analyzing sales performance across different dimensions. The data was collected from various regions and markets in Nigeria, focusing on four lines of business.
+## Visulization
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel9.png)
+
+![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel10.png)
+
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/EXCEL-DASHBOARD.png)
 
+## Conclusion
 
 ## SQL CLASS
 SQL (Structured Query Language) is a standard programming language specifically designed for managing, querying, and manipulating relational databases. SQL stands for Structured Query Language. 
