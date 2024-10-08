@@ -68,6 +68,24 @@ We explored Excel in depth, starting with data cleaning and manipulation using v
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel7.png)
 
+## MICROSOFT EXCEL PROJECT
+Fields in the Dataset:
+ - **Region:** Geographic area.
+ - **Market:** Market segment the store operates in.
+ - **Store:** Specific store location.
+ - **Trade Date:** Date of the transaction.
+ - **Fiscal Period:** Financial period.
+ - **Model:** Product model or category.
+ - **Line of Business:** Business category or sector.
+ - **Day Category:** Transaction day classification (e.g., weekday, weekend).
+ - **Revenue:** Total sales amount.
+ - **Units Sold:** Quantity of items sold.
+ - **Transaction Category:** Each sale is classified into one of these three categories (Low, Medium, or High) based on the number of units sold.
+
+### Data Manipulation
+![EXCEL_P](https://github.com/user-attachments/assets/0695549c-461d-488a-97fb-f0c95618bd05)
+
+I am analyzing sales performance across different dimensions. The data was collected from various regions and markets in Nigeria, focusing on four lines of business.
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/EXCEL_PROJECT.jpg)
 
 
@@ -107,7 +125,7 @@ Key Features Learned in SQL: SQL Operators, SQL Aggregation functions, SQL Set O
 ![SQL_J](https://github.com/user-attachments/assets/b17866e0-8ab9-41cb-9d20-0dcf5e08e3c8)
 ![SQL_O](https://github.com/user-attachments/assets/f495c7f5-8864-45ab-8638-77ec13b25fe9)
 
-## SQL Syntax
+## SQL SYNTAX
 ```SQL
    CREATE database LITA_DB
 ```
@@ -129,6 +147,8 @@ Key Features Learned in SQL: SQL Operators, SQL Aggregation functions, SQL Set O
 ![SQL_Operators](https://github.com/user-attachments/assets/14ac3b3e-f6b2-4af4-b74f-995abf4fc1cb)
 
 During our final lecture, we successfully imported a CSV file into SQL, where I had the opportunity to explore and manipulate the dataset using several SQL operators. This involved performing queries to filter, sort, and aggregate the data, which helped me gain a deeper understanding of how to extract meaningful insights from raw data using SQL. The hands-on experience of applying these operators reinforced my learning and enhanced my data analysis skills.
+
+## SQL PROJECT
 
 [Here](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/SQL_Project.sql) is a link to the SQL script.
 ![](SQL8.png)
