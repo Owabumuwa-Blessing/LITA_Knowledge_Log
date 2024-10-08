@@ -9,9 +9,13 @@
 
 [Microsoft Excel Class](#microsoft-excel-class)
 
+[Microsoft Excel Project](#microsoft-project)
+
 [SQL Class](#sql-class)
 
 [SQL Syntax](#sql-syntax)
+
+[SQL Project](#sql-sproject)
 
 [GitHub Class](#github-class)
 
