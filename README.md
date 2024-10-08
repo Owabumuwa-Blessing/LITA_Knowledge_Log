@@ -93,22 +93,22 @@ Fields in the Dataset:
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel10.png)
 
+![REV_UNITS](https://github.com/user-attachments/assets/f005135d-8442-4e25-a956-6e73719f6b4f)
+
+### Sales Report Dashboard
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/EXCEL-DASHBOARD.png)
 
 ## Observation and Conclusion
-**Revenue by Region** reveals the geographical strengths and weaknesses of the business. The North East is the top revenue-generating region while North Central region has the least revenue.The North East region is clearly a top performer, indicating strong market effective strategies. On the other hand, the North Central region presents an opportunity for improvement, potentially through targeted campaigns or resource reallocation.
-
- uncovers how different categories contribute to overall revenue. By understanding which categories drive the most sales, businesses can refine their offerings and focus marketing efforts on high-performing categories. This ensures that the company aligns its strategies with customer preferences and market demands.
+**Revenue by Region:** The revenue analysis by region highlights the North East as the most profitable area, while the South West and South South also contribute significantly. The North Central region, however, presents an opportunity for further development. Targeted marketing strategies and tailored approaches to increase engagement in lower-performing regions could help optimize overall revenue across the country.
 
 **Monthly Revenue:** By identifying potential seasonal trends, adjusting marketing efforts, and optimizing product offerings, the business can aim to maintain higher revenue levels consistently across all months.
    * Peak Revenue Months: The highest revenue was recorded in March (₦8,458,780,440), followed closely by May (₦8,348,649,000).
    * Decline in Mid-Year: Revenue saw a significant drop starting in July, with monthly figures dropping to below ₦4 billion. This decline continues through December.
    * Lowest Revenue Months: July recorded the lowest revenue at ₦3,976,032,960, with similar low figures in the subsequent months, indicating a potential seasonal downturn.
 
-**Revenue by Units Sold:** 
+**Units Sold by Region:** The analysis of units sold by region shows that the North East is the leading market, followed by the South West and South South. The North Central region presents an opportunity for improvement. To optimize overall sales, businesses should consider targeted marketing efforts and strategies aimed at boosting engagement and sales in regions with lower performance.
 
 **Revenue by Transaction Category:** Strategies should prioritize boosting revenue from medium transactions while also seeking opportunities to enhance high-value sales.
-![REV_UNITS](https://github.com/user-attachments/assets/f005135d-8442-4e25-a956-6e73719f6b4f)
    * Low Transaction Category: Despite accounting for the largest number of units sold (14,763 units), the low category generates less revenue compared to the medium category. This suggests that items in this category are priced lower, which impacts the total revenue generated, even though sales volume is high.
    * Medium Transaction Category: This category contributes the largest share of the overall revenue. Even though it ranks second in terms of units sold (12,016 units), the revenue it generates is the highest. This could imply that items in the medium category have a balanced mix of volume and pricing, making it a key driver of revenue.
    * High Transaction Category: Although this category has the lowest number of units sold (4,020 units), it still contributes a notable share of the revenue, which indicates that the items in this category are of higher value, generating more revenue per transaction. However, since fewer units are sold, its contribution to the overall revenue is the smallest.
