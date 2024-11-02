@@ -21,7 +21,7 @@
 
 [Power BI Class](#power-bi-class)
 
-[HR Analysis](#hr-analysis)
+[Dashboard](#dashboard)
 
 ## FOUNDATION OF DATA
 The foundation of data refers to the basic principles and concepts that underpin how data is collected, managed, analyzed, and utilized in decision-making processes.
@@ -222,37 +222,57 @@ These calculated measures contribute to a more granular understanding of employe
 
 I incorporated three conditional columns into the dataset: one for attrition count, another for age sorting, and a third for job satisfaction ratings. This enhancement provides additional layers of analysis to better understand the factors influencing employee retention.
 
-## Insights
-Maximum attrition happening in the age group of 26 to 35.
-Maximum attrition happens in Life Sciences Education i.e. 38% and Laboratory Technician as job role.
-Attrition is directly proportional to job satisfaction as well for different job roles. Hence lower the number, the more chance of attrition.
-Maximum attrition observed in employees having 1 to 2 years in the company.
-Also average salary is 6.5k, yet employees earning below that slab have higher chances of attrition.
+## Dashboard
+![HR DASHBOARD](https://github.com/user-attachments/assets/ce882162-d935-4a25-9ff8-b723a58c5aab)
+
+![HR DASHBOARD 2](https://github.com/user-attachments/assets/76852903-2332-4e40-b05a-dee3794474e9)
+
+![HR DASHBOARD 3](https://github.com/user-attachments/assets/509153d0-d520-47bf-838f-3069951a3e0f)
 
 ## Observations
- * The organization has a 16% departure rate, indicating that 237 employees voluntarily left during the studied period. The average age is 37 years, providing insight into the demographics affected by turnover.
- * It is clear that the largest segment of departing employees, comprising 89, has backgrounds in Life Sciences. Following closely are those from Medical fields, who constitute the next significant group of leavers. Notably, there is also a considerable percentage of departures among individuals with marketing qualifications. In contrast, employees with technical degrees represent the smallest share of departures, accounting for just 11 attrition. This distribution of attrition across various educational backgrounds highlights potential areas of concern and opportunities for targeted retention efforts within specific sectors.
- * The analysis shows that the 25 to 34 age group experiences the highest turnover, with 112 individuals departing, including 69 males, as depicted in the chart. This significant attrition among younger employees suggests that they may be facing particular challenges or dissatisfaction that lead them to seek opportunities elsewhere. Factors such as career progression, work-life balance, and overall job satisfaction could play a role in their decision to leave.
-       - In comparison, the subsequent age category of 35 to 44 years sees a considerably lower number of departures, totaling 51 individuals. This drop in attrition rates may indicate that employees in this age group find greater stability or fulfillment in their roles, potentially due to increased career advancement opportunities or stronger engagement with their work.
-      - Additionally, employees aged 55 and above have the fewest departures among the age groups analyzed, reflecting a level of commitment and satisfaction that may be attributed to a variety of factors. These could include established relationships within the organization, accumulated experience, or the prospect of retirement, which often fosters a sense of loyalty and dedication to their roles.
-      - Understanding these age-related patterns is essential for the organization as it seeks to improve employee retention. By targeting the specific needs and motivations of younger employees, especially those in the 25 to 34 age group, the organization can develop tailored strategies aimed at enhancing job satisfaction and reducing turnover. Initiatives such as mentorship programs, career development workshops, and flexible work arrangements could be beneficial.
-      - Conversely, recognizing the stability among older employees can inform the creation of programs that leverage their expertise while also addressing any potential concerns related to succession planning. By cultivating a work environment that supports employees across all age groups, the organization can foster a more engaged and committed workforce, ultimately enhancing overall retention rates.
+## **1. Overview Statistics**
+ - Number of Employees: There are 1,470 employees in total, with 237 leaving (attrition), resulting in 1,233 active employees.
+ - Attrition Rate: The attrition rate stands at 16%, with an average age of employees at 37.
+ - Monthly Income and Rate: The average monthly income is NGN 6,833, and the average monthly rate is NGN 14,266.
 
- * An analysis of departure rates in relation to years of experience reveals a distinct pattern. Employees who have been with the company for 10 years exhibit a notably lower turnover rate, with only 18 individuals departing. This suggests that long-term employees may experience higher levels of job satisfaction, loyalty, and commitment to the organization.
-      - In contrast, the data indicates that employees with 0 to 3 years of experience have a significantly higher departure rate, totaling 59 individuals. This trend may point to challenges faced by newer employees, such as insufficient onboarding, unclear career paths, or a lack of engagement with the company culture.
-      - Understanding these dynamics is crucial for developing effective retention strategies. For newer employees, implementing robust onboarding processes, mentorship programs, and regular feedback mechanisms can help improve their integration into the organization and enhance their overall experience. By addressing the specific needs and concerns of less experienced employees, the company can work to reduce turnover in this demographic.
-      - On the other hand, the low departure rate among long-tenured employees presents an opportunity to analyze the factors that contribute to their retention. This may include aspects such as career growth opportunities, a supportive work environment, and strong organizational culture. By leveraging these insights, the company can strive to create an engaging atmosphere that encourages both new and long-term employees to thrive and remain with the organization.
-      - Overall, focusing on the unique experiences and needs of employees at different stages of their tenure can help foster a more stable workforce and enhance retention across the board.
+## **2. Attrition Analysis**
+ - By Job Role and Job Satisfaction: The roles with the highest dissatisfaction leading to attrition are Laboratory Technicians (66), Sales Executives (57), and Research Scientists (47). In contrast, Managerial roles show relatively low attrition.
+ - By Education Field: Life Sciences has the highest attrition with 89 employees leaving, followed by Medical (63) and Marketing (35).
+ - By Department: The Sales department experiences the most attrition (133 employees), followed by R&D (92), and HR (12).
+ - By Marital Status: Single employees show the highest attrition (120), compared to those who are married (84) or divorced (33).
+ - By Gender: Males have a higher attrition rate at 63%, compared to females at 37%.
 
-[Here] is a link to the dashboard.
+## **3. Attrition by Experience and Tenure**
+ - Attrition by Year at Company: Most attrition occurs within the first year of employment (50 employees), and it drops significantly after that, stabilizing by the 10-year mark.
+ - Attrition by Age Group: The 25-34 age group experiences the highest attrition (112), followed by ages 35-44 (51), and then 45-54 (25).
+
+## **4. Employee Demographics**
+ - Gender Distribution: 60% of the workforce is male, while 40% is female. The gender distribution related to attrition reveals that a significant majority, 63%, are male, while 37% are female. This data indicates a notable imbalance in gender representation among those who have left the organization.
+ - Age Distribution: The largest group of active employees is aged 25-34, followed by those in the 35-44 age range.
+ - Work-Life Balance: Departments like R&D have a relatively high work-life balance score (2619) compared to Sales (1256) and HR (184), which may contribute to differences in satisfaction and attrition.
+
+## **5. Employee Satisfaction and Work Environment**
+ - Environment Satisfaction Score: The average score is 584, indicating general satisfaction with the workplace environment.
+ - Distance from Home: The average distance from home for employees is 9 miles, which could influence job satisfaction and turnover for those with longer commutes.
+
+## **6. Key Insights and Possible Interventions**
+ - High Attrition in Early Years: High turnover within the first year suggests onboarding, training, or role expectations might need improvement.
+ - Job Role-Specific Interventions: Targeting attrition reduction in high-turnover roles (e.g., Laboratory Technicians and Sales Executives) with tailored retention programs.
+ - Life Sciences and Sales Department Focus: These areas exhibit high attrition and might benefit from reviewing job satisfaction drivers or providing additional support.
+ - Work-Life Balance Improvements in Sales and HR: Enhancing work-life balance could mitigate attrition in these departments, especially for younger employees.
+ - Focus on Single Employees: High attrition among single employees might suggest a need for benefits or engagement initiatives that resonate more with this demographic.
+ - These insights can guide HR initiatives in improving employee satisfaction and retention through targeted actions in onboarding, training, and work-life balance programs, particularly for high-risk groups identified in the dashboard.
 
 ## Conclusion
-The elevated number of departures among employees with Life Science backgrounds highlights the urgent need for focused attention and strategic initiatives aimed at reducing attrition in this demographic. In contrast, the relatively low departure rate among individuals with technical degrees suggests that there may be effective retention practices currently in place for this group. 
+### Conclusion
+The HR analysis identifies critical factors influencing employee attrition, enabling targeted retention strategies. Key findings reveal high turnover among younger employees, single employees, and specific roles such as Laboratory Technicians and Sales Executives, particularly within their first year with the company. Departments like Life Sciences and Sales exhibit significantly higher attrition rates, indicating potential issues related to job satisfaction and work-life balance that require attention.
 
-By examining these trends, the company can gain valuable insights that inform the development of targeted retention strategies, especially for those in Life Sciences and Medical fields. Implementing tailored programs, such as enhanced career development opportunities, mentorship, and work-life balance initiatives, could address the specific needs and concerns of these employees. Ultimately, fostering a supportive environment that acknowledges and responds to the challenges faced by these groups will be crucial in minimizing turnover and maintaining a stable workforce.
+To address these challenges, the organization should enhance onboarding processes, provide tailored support for high-risk roles, and implement work-life balance initiatives, especially within Sales and HR. Improving satisfaction for single employees and those in the early stages of their careers could also contribute to reducing overall attrition. By focusing on these strategies, the organization can strengthen employee retention, lower turnover costs, and cultivate a more stable, satisfied workforce.
 
-In summary, the in-depth analysis conducted using Power BI offers valuable insights into various facets of employee attrition. The trends revealed in this report identify key areas that require targeted actions to improve retention and foster a more engaged workforce. 
+The higher departure rates among employees with Life Science backgrounds highlight the need for strategic initiatives aimed at reducing attrition in this demographic. In contrast, the lower turnover rate among individuals with technical degrees suggests effective retention practices are already in place for this group.
 
-Feel free to explore the dashboard further for a more detailed view of the data and to interact with specific metrics and visualizations for deeper insights.
+By analyzing these trends, the company can gain valuable insights that inform the development of targeted retention strategies, particularly for those in Life Sciences and Medical fields. Tailored programs, including enhanced career development opportunities, mentorship, and work-life balance initiatives, could address the specific needs of these employees. Ultimately, fostering a supportive environment that acknowledges and responds to their challenges will be essential for minimizing turnover and maintaining a stable workforce.
 
-[Here] is the link.
+In summary, the comprehensive analysis conducted using Power BI provides valuable insights into various aspects of employee attrition. The trends identified in this report highlight key areas requiring targeted actions to improve retention and cultivate a more engaged workforce.
+
+Feel free to explore the dashboard further for a more detailed view of the data and to interact with specific metrics and visualizations for deeper insights. [Here](https://app.powerbi.com/links/uJEC4jBrSF?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) is the link.
