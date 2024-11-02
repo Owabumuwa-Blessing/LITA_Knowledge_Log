@@ -183,3 +183,24 @@ GitHub has played a crucial role in my data analysis journey with The Incubator 
 ![Screenshot 2024-10-07 231433](https://github.com/user-attachments/assets/a9b765a9-ba66-4868-a9ae-afd18e775517)
 
 This documentation reflects my current progress in my learning journey. I have gained valuable skills in data analysis and GitHub, and I am particularly excited about the upcoming Power BI training. I am committed to continuing my growth and applying my knowledge to future projects. The best is yet to come! Thank you 🥰
+
+
+# POWER BI CLASS
+My Power BI journey has been an eye-opening experience in transforming complex data into meaningful insights. Through this learning process, I've become proficient in connecting to various data sources, including Excel, SQL Server, and online services, which allows me to centralize diverse data for streamlined analysis. One key skill I’ve developed is using Power Query to clean, shape, and transform data before analysis. This includes handling tasks like removing duplicates, transforming data types, merging tables, and performing advanced transformations. This stage ensures my data is accurate and ready for analysis.
+
+In Power BI, I've also learned to create calculated fields and measures using DAX (Data Analysis Expressions), allowing me to generate insights such as cumulative totals, moving averages, and percentage change calculations. DAX expressions enable deeper analytical capabilities that provide stakeholders with a more comprehensive view of the data.
+
+Visualization design has been another major focus. I’ve worked on creating dashboards with a balance of aesthetic appeal and functional layout. Using elements like slicers, filters, and drill-downs, I can build interactive visuals that make it easier for users to explore the data on their own. 
+
+With Power BI, I’m learning to support data-driven decision-making effectively, using dashboards to identify trends, track KPIs, and communicate performance insights. This experience has enriched my data storytelling skills and given me confidence in delivering actionable insights to stakeholders.
+
+## HR DATA ANALYSIS
+This project was completed as part of a classroom exercise, where I learned to analyze HR data and present insights using Power BI. The goal was to track key HR metrics, including the total number of employees, attrition count, active employees, attrition rate, and average age.
+
+In the dashboard, I created visuals that break down attrition by department, educational field, and gender. These insights help identify patterns in employee turnover, providing a basis for HR teams to explore potential retention strategies. Additionally, the data is segmented by age groups, with gender-specific analysis for each segment, allowing for a deeper understanding of demographic trends within attrition.
+
+The interactive features of the dashboard, such as filters for job roles and departments, make it adaptable for more detailed HR analyses. Through this project, I gained practical experience in HR analytics and learned how to effectively use Power BI to support data-driven decision-making in a human resources context.
+
+I created various measures to enhance the analysis. The first measure, “Attrition Rate,” is calculated by dividing the attrition count by the total number of employees. I introduced the “Active Employees” measure, derived by subtracting the sum of attrition count from the sum of employee count. This measure helps identify the number of employees who are still active in the organization. These measures contribute to a more comprehensive understanding of employee dynamics within the dataset.
+
+[Here](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/SQL_Project.sql) is a link to the SQL script.
