@@ -19,6 +19,10 @@
 
 [GitHub Class](#github-class)
 
+[Power BI Class](#power-bi-class)
+
+[HR Analysis](#hr-analysis)
+
 ## FOUNDATION OF DATA
 The foundation of data refers to the basic principles and concepts that underpin how data is collected, managed, analyzed, and utilized in decision-making processes.
 During the first week of training, we delved into several key topics, including data literacy, data generation, data sources, data structure, data storage, and data analysis. I gained an understanding of how organizations operate two primary systems: operational systems, which handle day-to-day transactions, and analytic systems, which focus on data insights and decision-making. A significant part of the discussions was centered on how to efficiently restructure and manage data using the ETL (Extract, Transform, Load) process, which plays a crucial role in transforming raw data into meaningful insights.
@@ -194,7 +198,7 @@ Visualization design has been another major focus. I’ve worked on creating das
 
 With Power BI, I’m learning to support data-driven decision-making effectively, using dashboards to identify trends, track KPIs, and communicate performance insights. This experience has enriched my data storytelling skills and given me confidence in delivering actionable insights to stakeholders.
 
-## HR DATA ANALYSIS
+## HR ANALYSIS
 This project was completed as part of a classroom exercise, where I learned to analyze HR data and present insights using Power BI. The goal was to track key HR metrics, including the total number of employees, attrition count, active employees, attrition rate, and average age.
 
 In the dashboard, I created visuals that break down attrition by department, educational field, and gender. These insights help identify patterns in employee turnover, providing a basis for HR teams to explore potential retention strategies. Additionally, the data is segmented by age groups, with gender-specific analysis for each segment, allowing for a deeper understanding of demographic trends within attrition.
