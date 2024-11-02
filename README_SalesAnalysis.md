@@ -1,4 +1,4 @@
-# DATA ANALYTICS PROJECT
+# CAPSTONE PROJECT
 
 ![LITA](https://github.com/user-attachments/assets/c149ad8d-5e6e-4e2d-aacd-7bb3da3ade36)
 
