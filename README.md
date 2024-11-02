@@ -275,4 +275,4 @@ By analyzing these trends, the company can gain valuable insights that inform th
 
 In summary, the comprehensive analysis conducted using Power BI provides valuable insights into various aspects of employee attrition. The trends identified in this report highlight key areas requiring targeted actions to improve retention and cultivate a more engaged workforce.
 
-Feel free to explore the dashboard further for a more detailed view of the data and to interact with specific metrics and visualizations for deeper insights. [Here]([https://app.powerbi.com/links/uJEC4jBrSF?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare](https://app.powerbi.com/links/uJEC4jBrSF?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare)) is the link.
+Feel free to explore the dashboard further for a more detailed view of the data and to interact with specific metrics and visualizations for deeper insights. [Here](https://app.powerbi.com/links/uJEC4jBrSF?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) is the link.
