@@ -64,13 +64,14 @@ Data Analysis helps businessess make informed decisions, understand customer beh
 ### Excel Tools and Data Reporting
 We explored Excel in depth, starting with data cleaning and manipulation using various formulas. One of the key focuses was learning how to manage data entry and apply data validation techniques to help minimize errors during the entry process. We practiced a variety of functions:- Arithmetic Functions, Logical Functions, Text Functions and Lookup Functions. Cell referencing was introduced during our session on lookup functions. In our final lecture on Excel, we focused on reporting, where we covered how to create Pivot Tables, Pivot Charts, and build comprehensive reports using these tools.
 
-![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel1.png)
+![Excel1](https://github.com/user-attachments/assets/e5be3194-6246-42cd-8fb9-41bedfaa00ea)
 
-![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel4.png)
+![Excel4](https://github.com/user-attachments/assets/ec930971-3ef3-47c4-864c-59fd880ad4d2)
 
-![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel6.png)
+![Excel6](https://github.com/user-attachments/assets/67dbdaff-e9c1-4359-a256-343c1f7773a0)
 
-![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/main/Excel7.png)
+![Excel7](https://github.com/user-attachments/assets/588a1eba-bbbd-48e3-bb43-d846b7fd34eb)
+
 
 ## MICROSOFT EXCEL PROJECT
 
