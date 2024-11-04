@@ -4,11 +4,9 @@
 
 [Objective](#objective)
 
-[Methodology](#methodology)
+[Analysis Techniques](#analysis-techniques)
 
-[Key Insights](#key-insights)
-
-[Dashboard Overview](#dashboard-overview)
+[Power BI Dashboard](#power-bi-dashboard)
 
 [Conclusion](#conclusion)
 
@@ -42,74 +40,54 @@ The dataset provides subscription details for each customer, with the following 
  - Revenue: The revenue generated from the subscription.
  - SubscriptionDuration: The subscription length, measured in days. I calculated it using this formula:
     `= SubscriptionEnd - SubscriptionStart`
+   
+## Data Preparation
+ * Data Cleaning and Transformation
+   - Data Cleaning: I conducted a thorough review and cleaning of the dataset to ensure accuracy by eliminating duplicates, checking data types and formatting as table.
+![ExcelDupli](https://github.com/user-attachments/assets/0f16120e-6d8d-4c37-9cae-1f1f0a89dbd5)
+ - Data Transformation:
 
+![PQ_CustomerData](https://github.com/user-attachments/assets/4266720e-6846-462f-9a42-dfac5498787e)
 
+ * Calculated Columns and Measures: I added a new column called **SubscriptionDuration** using a DAX formula and created 10 measures:
 
+![PBI_C1](https://github.com/user-attachments/assets/eb522d6c-61da-4c08-bf40-eaed9c83533b)
 
+## Analysis Techniques
+**1. Excel**
 
+In the first stage of Exploratory Data Analysis (EDA), Excel was used to examine the customer dataset and extract initial insights into subscription patterns. Excel’s pivot tables and calculation functions provided an accessible way to explore customer segments, subscription types, and subscription durations.
 
-
-## Methodology
-1. Data Cleaning: I reviewed and cleaned the dataset to ensure accuracy, handling missing values, standardizing data formats and removing duplicates.
-![](LITA_EXCEL_IMAGE/ExcelDup.png)
-
-Creation of interactive dashboards for online sales data analysis
-Utilization of complex parameters for drill-down analysis and filter customization
-Data manipulation techniques: connections, table joins, calculations, and user-driven parameters for visualization
-Various visualization types used: bar chart, pie chart, donut chart, clustered bar chart, scatter chart, line chart, area chart, map, slicers, etc.
-
-3. Exploratory Data Analysis: Using Excel and SQL, I performed initial analysis to understand the sales distribution across different regions and product categories.
-
-* Excel: Exploration and Summary
-  * Pivot Tables: Using Excel pivot tables, I performed an initial exploration of the sales data, summarizing key metrics.
+* Pivot Tables: Using Excel pivot tables, I performed an initial exploration of the data, summarizing key metrics.
     - Revenue Analysis: Calculate total revenue by product and by region to identify top earners.
     - Sales Count: Assess quantity sold by region and product to understand sales dynamics.
     - Top Customer Analysis: Identify high-value customers based on total revenue contributions.
     - Monthly Performance: Track revenue and sales growth month-over-month to gauge business health and seasonality.
     - Pricing Analysis: Evaluate average selling prices for each product to inform pricing strategies. This analysis helps in determining whether the revenue increase is due to higher sales volumes or price adjustments.
   * Excel Formulas: To gain further insights, I used various formulas to calculate additional metrics:
-    - Average Sales per Product:
-     `=AVERAGE(Product,"ProductName", Quantity)`
-![](LITA_EXCEL_IMAGE/Excel_S2.png)
+    - Average Subscription Duration:
+     `=AVERAGE(SubscriptionDuration)`
+    - Most Popular Subscription Type:
+     `=INDEX(N8:N10, MATCH(MAX(O8:O10), O8:O10, 0)))`
+![image](https://github.com/user-attachments/assets/bba50130-a12a-46bb-8614-662648b740af)
+    - Count of Subscription Type:
+     `=COUNTIF(SubscriptionType, N8)`
+     `=COUNTIF(SubscriptionType, N9)`
+     `=COUNTIF(SubscriptionType, N10)`                                                                                                     
+![image](https://github.com/user-attachments/assets/20f3ea17-4b8e-473d-ad29-6b4a6aa011f4)
 
-    - Total Revenue by Region:
-    `=SUMIF(Region, "RegionName", Revenue)`
-![](LITA_EXCEL_IMAGE/Excel_S1.png)
+**2. SQL Queries**
 
-* SQL: Querying and Analysis
-Once the dataset was loaded into SQL Server, I wrote SQL queries to extract detailed insights and answer specific business questions:
+Once the dataset was loaded into SQL Server, I wrote SQL queries to extract meaningful insights and address key business questions. These queries allowed me to analyze subscription patterns, customer retention, revenue trends, and cancellation rates, providing a comprehensive view of customer behaviour and subscription performance.
 [Here](LITA_CAPSTONE_PROJECT.sql) is a link to the SQL script.
 
-3. Dashboard: In Power BI, I created visuals to show key metrics such as total revenue, top-selling products, regional sales breakdown, and monthly sales trends.
+## Power BI Dashboard
 
 ## Key Insights
-* **Revenue by Product:**
-  - Top Performers: The top-selling products are Shoes (₦613,380) and Shirts (₦485,600). This suggests a strong demand for footwear and apparel.
-  - Underperformers: Jacket (₦208,230) and Socks (₦180,785) show potential for improvement in marketing or bundling strategies.
-*  **Revenue by Region:**
-  - The South region generated the highest revenue (₦927,820), indicating potential for further investment.
-  - West (₦300,345) is the lowest-performing region, which may require strategic focus to enhance sales.
-* **Sales Dynamics:**
-  - Highest Quantity Sold: The Hat and Shoes are the most frequently sold items (1991 and 1987 units, respectively), indicating their popularity among customers.
-* **Regional Preferences:**
-  - The East has the highest sales count (2483), suggesting regional preferences for specific product lines.
-* **Top Customer Purchases:**
-Multiple customers contribute the same total revenue (₦4,235), which may suggest repeated purchasing patterns or similar buying behaviours. Targeting these customers with loyalty programs could enhance retention.
- * **Average Selling Price:**
-  - The analysis of average selling prices across products shows variability, suggesting room for strategic pricing adjustments. The Jacket has the highest average price (₦42), indicating premium positioning.
-* **Monthly Trends:**
-  - Growth Insights: February shows the highest growth rate (398.99%), indicating possible seasonal demand or successful promotional campaigns.
-  - Declines: Notable revenue drops in August: -87.42% from July to August. It warrant investigation into potential causes (e.g., seasonality, inventory issues).
-* **Monthly Sales (Quantity):**
-  - Highest Sales: March: 997 units and February: 993 units
-  - Lowest Sales: October & September: 496 units each
- 
- 
-## Dashboard Overview
  
 ## Conclusion
 Conclusion
-This project provides valuable insights into customer behavior, preferences, and retention patterns, supporting data-driven decision-making for the subscription service. The Power BI dashboard enables stakeholders to interact with the data and explore key findings.
+This project provides valuable insights into customer behaviour, preferences, and retention patterns, supporting data-driven decision-making for the subscription service. The Power BI dashboard enables stakeholders to interact with the data and explore key findings.
 
 
 
