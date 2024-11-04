@@ -65,7 +65,15 @@ Once the dataset was loaded into SQL Server, I wrote SQL queries to extract deta
 3. Dashboard: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
 
 ## Dashboard
+ [Here](https://app.powerbi.com/links/-qoyjEOn_x?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) is the link. 
 
+https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(1).jpg
+
+https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(2).jpg
+
+https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(3).jpg
+
+https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(4).jpg
 
 ## Dashboard Overview
 This dashboard provides a comprehensive analysis of sales performance across multiple dimensions, including time (monthly and quarterly trends), product categories, and regional contributions. Key visuals and metrics are organized to offer quick insights and in-depth analysis for stakeholders to make informed business decisions. Below is an overview of the key sections and their focus:
