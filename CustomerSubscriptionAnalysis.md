@@ -1,34 +1,53 @@
-# CAPSTONE PROJECT
+# CAPSTONE PROJECT (Customer Subscription Analysis)
 
 ![LITA](https://github.com/user-attachments/assets/c149ad8d-5e6e-4e2d-aacd-7bb3da3ade36)
 
-[Retail Store Sales Performance Analysis](#retail-store-sales-performance-analysis)
+[Objective](#objective)
 
-[Objective SalesData](#objective-salesdata)
+[Methodology](#methodology)
 
 [Key Insights](#key-insights)
 
+[Dashboard Overview](#dashboard-overview)
 
-# Customer Subscription Analysis
+[Conclusion](#conclusion)
+
 
 ## Customer Segmentation for a Subscription Service
 
 ## Introduction
-This project focuses on analyzing customer data for a subscription service to identify customer segments, behavior patterns, and key trends. Insights from this analysis will aid in understanding customer preferences, tracking subscription types, and assessing cancellations and renewals. 
-## Objective SalesData
-The primary objective of this project is to conduct a thorough analysis of sales data to identify the top-performing products, evaluate regional sales performance, and explore monthly sales trends. By examining this data, the project aims to uncover actionable insights that can drive strategic decision-making. The culmination of this effort will be the creation of an interactive Power BI dashboard, designed to present these insights in a clear and visually appealing manner, allowing stakeholders to quickly grasp key performance indicators and make informed business decisions.
+In today's competitive landscape, understanding customer behaviour is crucial for businesses, especially those offering subscription services. As companies strive to enhance customer satisfaction and retention, analyzing customer data has become an essential tool for driving informed decision-making. This project focuses on customer segmentation for a subscription service, aiming to provide insights into customer behaviour, subscription patterns, and trends related to cancellations and renewals.
+
+By leveraging data analytics, organizations can identify distinct customer segments, enabling them to tailor marketing strategies, optimize subscription offerings, and enhance overall customer experience. This project utilizes data analysis techniques, including pivot tables, SQL queries, and Power BI visualizations, to present a comprehensive overview of customer dynamics within the subscription model. 
+
+## Objective
+The primary objective of this project is to analyze customer data for a subscription service to achieve the following:
+ - Identify Customer Segments: Categorize customers based on their subscription types and behaviors, facilitating targeted marketing and engagement strategies.
+ - Analyze Subscription Patterns: Utilize pivot tables and SQL queries to uncover trends related to subscription types, average subscription duration, and customer distribution across different regions.
+ - Track Cancellations and Renewals: Investigate trends in subscription cancellations, identifying key factors influencing customer retention and renewal rates.
+ - Calculate Key Metrics: Derive important metrics such as total customers, average subscription duration, total revenue by subscription type, and the status of active and canceled subscriptions.
+ - Visualize Insights: Create an interactive Power BI dashboard that effectively communicates the analysis results, allowing stakeholders to explore customer segments, cancellation trends, and subscription performance visually.
+
+By achieving these objectives, the project aims to provide actionable insights that can inform business strategies and enhance customer relationships in the subscription service sector.
 
 ##  Data Description
-The dataset used for this project contains transactional sales data from a retail environment. The key variables in the dataset are as follows:
-  - OrderID: A unique identifier for each sales transaction. This field allows for the tracking of individual orders.
-  - Customer ID: A unique identifier for each customer. This field helps in analyzing customer behavior and purchase patterns.
-  - Product: There are 6 products, Shoes, Shirt, Hat, Gloves, Jacket and Socks.
-  - Region: The geographic area where the sale occurred. This field enables analysis of sales performance by region, helping to identify high-performing markets.
-  - Order Date: The date when the order was placed. This is crucial for time-based analysis, such as monthly sales trends and seasonal patterns.
-  - Quantity: The number of units sold in each order.
-  - Unit Price: The price per unit of the product sold.
-  - Revenue: I calculated it using this formula:
-    `=Quantity * UnitPrice`
+The dataset provides subscription details for each customer, with the following key columns:
+ - CustomerID: A unique identifier for each customer.
+ - CustomerName: The name of the customer.
+ - Region: The customer's region.
+ - SubscriptionType: The type of subscription, such as Basic, Premium, or Standard.
+ - SubscriptionStart: The date the subscription began.
+ - SubscriptionEnd: The date the subscription ended.
+ - Canceled: Indicates if the subscription was canceled (TRUE or FALSE).
+ - Revenue: The revenue generated from the subscription.
+ - SubscriptionDuration: The subscription length, measured in days. I calculated it using this formula:
+    `= SubscriptionEnd - SubscriptionStart`
+
+
+
+
+
+
 
 ## Methodology
 1. Data Cleaning: I reviewed and cleaned the dataset to ensure accuracy, handling missing values, standardizing data formats and removing duplicates.
@@ -86,25 +105,14 @@ Multiple customers contribute the same total revenue (₦4,235), which may sugge
   - Lowest Sales: October & September: 496 units each
  
  
-## Dashboard Description
+## Dashboard Overview
  
 ## Conclusion
-The comprehensive analysis of the retail store's sales performance has unveiled critical insights into both product and regional dynamics, highlighting opportunities for optimization and growth.
+Conclusion
+This project provides valuable insights into customer behavior, preferences, and retention patterns, supporting data-driven decision-making for the subscription service. The Power BI dashboard enables stakeholders to interact with the data and explore key findings.
 
-* **Revenue Insights:** The top revenue-generating products—shoes, shirts, and hats—reflect consumer preferences and suggest a robust market for these categories. However, the lowest revenue generators like socks and jackets indicate areas for potential improvement, such as revisiting pricing strategies, enhancing product visibility, or reconsidering inventory levels to prevent stockouts of more popular items.
-
-* **Regional Performance:** The findings show that the South and East regions are pivotal to revenue generation, contributing significantly more than the West and North. This disparity suggests that tailored marketing campaigns and localized promotions could effectively stimulate sales in the underperforming regions. Additionally, understanding regional preferences may lead to more effective product assortments that cater to local tastes.
-
-* **Monthly Trends:** The analysis of monthly revenue and sales reveals notable seasonality, with February standing out for both revenue and growth. This spike may correlate with seasonal demand trends, indicating that promotional activities or special offers during peak months can capitalize on consumer buying behavior. Conversely, the dramatic decline observed in August warrants further investigation—identifying underlying causes, whether they be market conditions, competitor actions, or shifts in consumer behavior, could provide actionable insights to mitigate future declines.
-
-* **Sales Volume Analysis:** The insights into quantity sold further emphasize the need for strategic stock management. The high sales volumes in February and March suggest strong consumer engagement during these months. Implementing effective inventory strategies to ensure adequate stock levels during peak sales periods can enhance customer satisfaction and reduce missed sales opportunities.
 
 
 ## Recommendations
-* Pricing Strategy: Conduct a review of pricing for products with high sales volumes but lower revenue to enhance overall profitability. Adjust prices strategically to improve margins while maintaining sales momentum.
-* Seasonal Promotions: Develop promotional strategies that align with seasonal sales peaks, particularly during the holiday shopping season, to maximize revenue opportunities.
-* Marketing Strategy: Leverage insights on top-selling products and high-revenue regions to design targeted marketing campaigns that emphasize these strengths. Consider seasonal promotions that align with peak sales months to drive engagement and increase sales.
-* Product Assortment: Regularly review and adjust the product assortment based on sales performance. Focus on enhancing the visibility of low-performing products while ensuring that bestsellers are always in stock.
-* Regional Focus: Implement localized marketing strategies for underperforming regions to foster brand awareness and drive sales. Engage with local marketing efforts or partnerships to boost visibility and relevance in these areas.
-* Data-Driven Decisions: Continuously monitor sales performance metrics and market trends to adapt strategies proactively. Utilize data analytics tools to support real-time decision-making and agile responses to changing market conditions.
+
 
