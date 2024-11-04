@@ -47,11 +47,16 @@ The dataset provides subscription details for each customer, with the following 
 ![ExcelDupli](https://github.com/user-attachments/assets/0f16120e-6d8d-4c37-9cae-1f1f0a89dbd5)
  - Data Transformation:
 
-![PQ_CustomerData](https://github.com/user-attachments/assets/4266720e-6846-462f-9a42-dfac5498787e)
+![PQ_CustomerData](https://github.com/user-attachments/assets/15823851-9b00-4467-9583-1306cc04dba1)
 
- * Calculated Columns and Measures: I added a new column called **SubscriptionDuration** using a DAX formula and created 10 measures:
+ * Calculated Columns and Measures: I added two new column called **SubscriptionDuration** using a DAX formula and "Cancellation Status" using conditional column. 
 
 ![PBI_C1](https://github.com/user-attachments/assets/eb522d6c-61da-4c08-bf40-eaed9c83533b)
+
+![PQ_C1-C](https://github.com/user-attachments/assets/740fc309-8f69-48a3-b090-83c87a551647)
+
+
+Five essential measures were created: Average Subscription Duration, Total Customers, Total Revenue by Subscription Type, Active Subscriptions, Canceled Subscriptions, Most Popular Subscription Type, Count of Subscription Types,  and
 
 ## Analysis Techniques
 **1. Excel**
@@ -59,11 +64,15 @@ The dataset provides subscription details for each customer, with the following 
 In the first stage of Exploratory Data Analysis (EDA), Excel was used to examine the customer dataset and extract initial insights into subscription patterns. Excel’s pivot tables and calculation functions provided an accessible way to explore customer segments, subscription types, and subscription durations.
 
 * Pivot Tables: Using Excel pivot tables, I performed an initial exploration of the data, summarizing key metrics.
-    - Revenue Analysis: Calculate total revenue by product and by region to identify top earners.
-    - Sales Count: Assess quantity sold by region and product to understand sales dynamics.
-    - Top Customer Analysis: Identify high-value customers based on total revenue contributions.
-    - Monthly Performance: Track revenue and sales growth month-over-month to gauge business health and seasonality.
-    - Pricing Analysis: Evaluate average selling prices for each product to inform pricing strategies. This analysis helps in determining whether the revenue increase is due to higher sales volumes or price adjustments.
+    - Subscription Analysis Report:,
+    - Subscription Count by Type: 
+    - Subscription Revenue Analysis by Region:
+    - Average Subscription Duration by Type: 
+    - Revenue by Subscription Types:
+    -  Regional Customer Distribution:
+    -  Cancellation vs. Active Subscriptions:
+    -  Monthly Subscription Counts
+
   * Excel Formulas: To gain further insights, I used various formulas to calculate additional metrics:
     - Average Subscription Duration:
      `=AVERAGE(SubscriptionDuration)`
