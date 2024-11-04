@@ -2,13 +2,15 @@
 
 ![LITA](https://github.com/user-attachments/assets/c149ad8d-5e6e-4e2d-aacd-7bb3da3ade36)
 
-[Retail Store Sales Performance Analysis](#retail-store-sales-performance-analysis)
+[Objective](#objective)
 
 [Methodology](#methodology)
 
 [Key Insights](#key-insights)
 
-[Dashboard](#dashboard)
+[Dashboard Overview](#dashboard-overview)
+
+[Conclusion](#conclusion)
 
 
 # Retail Store Sales Performance Analysis
@@ -16,7 +18,7 @@
 ## Introduction
 In this project, I conducted an analysis of a retail store's sales performance to identify key insights related to top-selling products, regional performance, and monthly sales trends. Utilizing a dataset of transactional sales data, I created an interactive Power BI dashboard that visualizes these insights, enabling stakeholders to make informed business decisions.
 
-## Objective SalesData
+## Objective
 The primary objective of this project is to conduct a thorough analysis of sales data to identify the top-performing products, evaluate regional sales performance, and explore monthly sales trends. By examining this data, the project aims to uncover actionable insights that can drive strategic decision-making. The culmination of this effort will be the creation of an interactive Power BI dashboard, designed to present these insights in a clear and visually appealing manner, allowing stakeholders to quickly grasp key performance indicators and make informed business decisions.
 
 ##  Data Description
@@ -32,10 +34,13 @@ The dataset used for this project contains transactional sales data from a retai
     `= Quantity * UnitPrice`
 
 ## Methodology
-1. Data Cleaning: I reviewed and cleaned the dataset to ensure accuracy, handling missing values, standardizing data formats and removing duplicates.
+1. Data Cleaning and transformation: I reviewed and cleaned the dataset to ensure accuracy, handling missing values, standardizing data formats and removing duplicates. In Power BI, I transformed the data in Power Query and removed duplicates before loading. 
 ![](LITA_EXCEL_IMAGE/ExcelDup.png)
 
-2. Exploratory Data Analysis: Using Excel and SQL, I performed initial analysis to understand the sales distribution across different regions and product categories.
+![PQ_SalesData](https://github.com/user-attachments/assets/dc3a4242-4902-4d1d-8ff7-e23b9be7c767)
+
+
+3. Exploratory Data Analysis: Using Excel and SQL, I performed initial analysis to understand the sales distribution across different regions and product categories.
 
 * Excel: Exploration and Summary
   * Pivot Tables: Using Excel pivot tables, I performed an initial exploration of the sales data, summarizing key metrics.
@@ -57,7 +62,7 @@ The dataset used for this project contains transactional sales data from a retai
 Once the dataset was loaded into SQL Server, I wrote SQL queries to extract detailed insights and answer specific business questions:
 [Here](LITA_CAPSTONE_PROJECT.sql) is a link to the SQL script.
 
-3. Dashboard: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for Revenue and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
+3. Dashboard: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
 
 ## Key Insights
 * **Revenue by Product:**
@@ -82,7 +87,7 @@ Multiple customers contribute the same total revenue (₦4,235), which may sugge
   - Lowest Sales: October & September: 496 units each
  
  
-## Dashboard
+## Dashboard Overview
  
 ## Conclusion
 The comprehensive analysis of the retail store's sales performance has unveiled critical insights into both product and regional dynamics, highlighting opportunities for optimization and growth.
