@@ -6,7 +6,7 @@
 
 [Methodology](#methodology)
 
-[Key Insights](#key-insights)
+[Dashboard](#dashboard)
 
 [Dashboard Overview](#dashboard-overview)
 
@@ -64,42 +64,59 @@ Once the dataset was loaded into SQL Server, I wrote SQL queries to extract deta
 
 3. Dashboard: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
 
-## Key Insights
-* **Revenue by Product:**
-  - Top Performers: The top-selling products are Shoes (₦613,380) and Shirts (₦485,600). This suggests a strong demand for footwear and apparel.
-  - Underperformers: Jacket (₦208,230) and Socks (₦180,785) show potential for improvement in marketing or bundling strategies.
-*  **Revenue by Region:**
-  - The South region generated the highest revenue (₦927,820), indicating potential for further investment.
-  - West (₦300,345) is the lowest-performing region, which may require strategic focus to enhance sales.
-* **Sales Dynamics:**
-  - Highest Quantity Sold: The Hat and Shoes are the most frequently sold items (1991 and 1987 units, respectively), indicating their popularity among customers.
-* **Regional Preferences:**
-  - The East has the highest sales count (2483), suggesting regional preferences for specific product lines.
-* **Top Customer Purchases:**
-Multiple customers contribute the same total revenue (₦4,235), which may suggest repeated purchasing patterns or similar buying behaviours. Targeting these customers with loyalty programs could enhance retention.
- * **Average Selling Price:**
-  - The analysis of average selling prices across products shows variability, suggesting room for strategic pricing adjustments. The Jacket has the highest average price (₦42), indicating premium positioning.
-* **Monthly Trends:**
-  - Growth Insights: February shows the highest growth rate (398.99%), indicating possible seasonal demand or successful promotional campaigns.
-  - Declines: Notable revenue drops in August: -87.42% from July to August. It warrant investigation into potential causes (e.g., seasonality, inventory issues).
-* **Monthly Sales (Quantity):**
-  - Highest Sales: March: 997 units and February: 993 units
-  - Lowest Sales: October & September: 496 units each
- 
- 
+## Dashboard
+
+
 ## Dashboard Overview
- 
+This dashboard provides a comprehensive analysis of sales performance across multiple dimensions, including time (monthly and quarterly trends), product categories, and regional contributions. Key visuals and metrics are organized to offer quick insights and in-depth analysis for stakeholders to make informed business decisions. Below is an overview of the key sections and their focus:
+
+1. **Monthly Sales and Revenue Trends**:
+   - Displays sales and revenue fluctuations over the year, highlighting peaks in February and August and the lowest point in April. This trend analysis identifies high-demand periods, which can guide seasonal promotions and inventory planning.
+
+2. **Regional Sales Breakdown**:
+   - A regional analysis chart shows the distribution of sales and revenue across the South, East, North, and West regions. The South leads in both metrics, contributing nearly half of the total revenue. This regional breakdown helps pinpoint high-performing markets and potential growth areas.
+
+3. **Top-Selling Products**:
+   - Visuals for revenue and sales quantity by product category emphasize Shoes and Hats as top performers, with Gloves achieving the highest quantity sold. This section informs product-specific strategies, such as pricing adjustments or marketing focus on popular items.
+
+4. **Quarterly Performance**:
+   - Highlights product sales by quarter, with a focus on the last quarter’s performance, where Hats were the only major seller while other items saw minimal sales. This quarterly view sheds light on potential seasonality in product demand and the need for targeted stock and promotions.
+
+5. **Average Selling Price and Product Revenue**:
+   - An analysis of average selling prices and revenue contribution by product type. Shoes have the highest average price and revenue, indicating strong market demand. This section is crucial for pricing strategy adjustments and understanding the revenue impact of each product line.
+
+6. **Yearly Growth Rate**:
+   - Shows an overall growth rate of 9%, indicating positive business momentum. This metric provides a high-level view of annual sales performance and helps track progress towards sales targets.
+
+### Key Takeaways
+- **Seasonality**: High-demand months (February and August) are identified, with potential for increased sales efforts during these periods.
+- **Regional Focus**: The South region’s dominance in sales suggests it’s a core market, while other regions, especially the West, could be targeted for expansion.
+- **Product Strategy**: Shoes and Hats drive revenue, with an opportunity to increase the profitability of high-quantity but lower-revenue products like Gloves.
+- **Inventory and Promotions**: Quarterly insights highlight periods where certain products could benefit from promotional activities or inventory adjustments, particularly in the final quarter.
+
+## Observations
+1. **Monthly Sales and Revenue Trends**:
+   - Sales and revenue show distinct peaks and dips throughout the year, with February reaching the highest revenue of ₦546,300, followed by a drop in March and the lowest revenue in April at ₦46,865. 
+   - A mid-year recovery sees another high in July (₦274,800), with sales peaking again in August (₦174,300), indicating potential seasonal trends.
+
+2. **Regional Sales Performance**:
+   - The South region leads in both sales and revenue, contributing 44% (₦928,000) of total revenue, significantly higher than the East (23%, ₦486,000). The North and West regions contribute 18% and 14%, respectively, suggesting growth opportunities in these regions.
+   - Product preferences also vary by region, with Gloves and Shoes being particularly successful in the South, while Gloves also perform well in the East.
+
+3. **Top-Selling Products and Average Prices**:
+   - Shoes are the top revenue-generating product (₦613,380), followed by Shirts (₦485,600). However, Gloves have the highest sales volume (9,904 units in the East) despite generating lower revenue, indicating a lower average price.
+   - Shoes have the highest average selling price (₦43), while Hats have the lowest (₦20), impacting total revenue by product.
+
+4. **Quarterly and Yearly Patterns**:
+   - The last quarter shows limited sales for some products, with Hats leading during this period. Other products like Gloves, Jackets, Shirts, and Shoes recorded no sales in the final months, possibly due to seasonality or inventory shortages.
+   - An overall yearly growth rate of 9% suggests a positive sales trend but highlights the need for focused strategies to maintain growth across different months and regions.
+
 ## Conclusion
-The comprehensive analysis of the retail store's sales performance has unveiled critical insights into both product and regional dynamics, highlighting opportunities for optimization and growth.
+The analysis highlights clear seasonal sales variations, with peaks in February and August, which may benefit from targeted marketing efforts and inventory planning. The South region emerges as a key market, offering opportunities to further expand sales, while regions like the West show potential for growth with strategic investment.
 
-* **Revenue Insights:** The top revenue-generating products—shoes, shirts, and hats—reflect consumer preferences and suggest a robust market for these categories. However, the lowest revenue generators like socks and jackets indicate areas for potential improvement, such as revisiting pricing strategies, enhancing product visibility, or reconsidering inventory levels to prevent stockouts of more popular items.
+Shoes and Hats stand out as high-demand products, suggesting room for new styles or variants in these categories. Additionally, addressing the low sales in specific months, particularly April and the final quarter, through promotions or region-specific product strategies could help stabilize revenue throughout the year.
 
-* **Regional Performance:** The findings show that the South and East regions are pivotal to revenue generation, contributing significantly more than the West and North. This disparity suggests that tailored marketing campaigns and localized promotions could effectively stimulate sales in the underperforming regions. Additionally, understanding regional preferences may lead to more effective product assortments that cater to local tastes.
-
-* **Monthly Trends:** The analysis of monthly revenue and sales reveals notable seasonality, with February standing out for both revenue and growth. This spike may correlate with seasonal demand trends, indicating that promotional activities or special offers during peak months can capitalize on consumer buying behavior. Conversely, the dramatic decline observed in August warrants further investigation—identifying underlying causes, whether they be market conditions, competitor actions, or shifts in consumer behavior, could provide actionable insights to mitigate future declines.
-
-* **Sales Volume Analysis:** The insights into quantity sold further emphasize the need for strategic stock management. The high sales volumes in February and March suggest strong consumer engagement during these months. Implementing effective inventory strategies to ensure adequate stock levels during peak sales periods can enhance customer satisfaction and reduce missed sales opportunities.
-
+This dashboard provides valuable insights to support data-driven decisions in inventory management, marketing strategies, and product development, with a focus on high-performing regions and products, as well as addressing seasonal dips.
 
 ## Recommendations
 * Pricing Strategy: Conduct a review of pricing for products with high sales volumes but lower revenue to enhance overall profitability. Adjust prices strategically to improve margins while maintaining sales momentum.
