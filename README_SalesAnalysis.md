@@ -4,9 +4,11 @@
 
 [Retail Store Sales Performance Analysis](#retail-store-sales-performance-analysis)
 
-[Objective SalesData](#objective-salesdata)
+[Methodology](#methodology)
 
 [Key Insights](#key-insights)
+
+[Dashboard](#dashboard)
 
 
 # Retail Store Sales Performance Analysis
@@ -27,7 +29,7 @@ The dataset used for this project contains transactional sales data from a retai
   - Quantity: The number of units sold in each order.
   - Unit Price: The price per unit of the product sold.
   - Revenue: I calculated it using this formula:
-    `=Quantity * UnitPrice`
+    `= Quantity * UnitPrice`
 
 ## Methodology
 1. Data Cleaning: I reviewed and cleaned the dataset to ensure accuracy, handling missing values, standardizing data formats and removing duplicates.
@@ -80,7 +82,7 @@ Multiple customers contribute the same total revenue (₦4,235), which may sugge
   - Lowest Sales: October & September: 496 units each
  
  
-## Dashboard Description
+## Dashboard
  
 ## Conclusion
 The comprehensive analysis of the retail store's sales performance has unveiled critical insights into both product and regional dynamics, highlighting opportunities for optimization and growth.
