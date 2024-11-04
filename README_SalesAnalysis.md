@@ -1,4 +1,4 @@
-# CAPSTONE PROJECT
+# CAPSTONE PROJECT (Store Sales Performance Analysis)
 
 ![LITA](https://github.com/user-attachments/assets/c149ad8d-5e6e-4e2d-aacd-7bb3da3ade36)
 
@@ -55,7 +55,7 @@ The dataset used for this project contains transactional sales data from a retai
 Once the dataset was loaded into SQL Server, I wrote SQL queries to extract detailed insights and answer specific business questions:
 [Here](LITA_CAPSTONE_PROJECT.sql) is a link to the SQL script.
 
-3. Dashboard: In Power BI, I created visuals to show key metrics such as total revenue, top-selling products, regional sales breakdown, and monthly sales trends.
+3. Dashboard: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for Revenue and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
 
 ## Key Insights
 * **Revenue by Product:**
@@ -101,4 +101,3 @@ The comprehensive analysis of the retail store's sales performance has unveiled 
 * Product Assortment: Regularly review and adjust the product assortment based on sales performance. Focus on enhancing the visibility of low-performing products while ensuring that bestsellers are always in stock.
 * Regional Focus: Implement localized marketing strategies for underperforming regions to foster brand awareness and drive sales. Engage with local marketing efforts or partnerships to boost visibility and relevance in these areas.
 * Data-Driven Decisions: Continuously monitor sales performance metrics and market trends to adapt strategies proactively. Utilize data analytics tools to support real-time decision-making and agile responses to changing market conditions.
-
