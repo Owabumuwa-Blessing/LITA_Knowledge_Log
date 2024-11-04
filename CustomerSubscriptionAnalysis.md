@@ -146,6 +146,31 @@ This seasonality suggests peak subscription interest early in the year, with a g
 
 ## Conclusion
 Conclusion
+
+Observations
+Dominance of Basic Subscription: The Basic subscription type has the highest customer count (16,921) and revenue (₦33,776,735), indicating that it appeals most to customers. This may suggest it is competitively priced or offers features that align well with customer needs.
+
+High Revenue Contribution from Regions: The Basic subscription generates significant revenue across different regions, particularly in the East (₦16,958,763) and North (₦16,817,972). This highlights regional variations in demand and could inform targeted marketing strategies.
+
+Average Duration Insights: The average subscription durations indicate varying levels of customer commitment. Premium subscribers (653 days) have the longest average duration, suggesting higher satisfaction or value perception, while Basic subscribers (445 days) may require initiatives to enhance retention.
+
+Cancellation Rates: A significant number of cancellations are observed, especially for the Basic and Premium subscriptions. The Basic subscription type has 5,067 cancellations out of 16,921 total subscriptions, which indicates potential areas for improvement in customer retention strategies.
+
+Seasonal Trends in Subscriptions: The monthly subscription counts show a seasonal trend, with higher counts in the early months of the year and lower counts toward the end. This suggests that customers are more inclined to subscribe at the beginning of the year, possibly influenced by new year resolutions or marketing promotions.
+
+Balanced Regional Distribution: Customer distribution across regions is relatively balanced, with no region dramatically leading in customer count. This could imply that the subscription service has successfully reached a wide audience, but further segmentation analysis could uncover untapped markets.
+
+Conclusion
+The analysis of subscription data reveals critical insights into customer behavior, revenue generation, and subscription longevity. The Basic subscription emerges as the most popular option, contributing significantly to overall revenue. However, the data also indicates a need for improved retention strategies, especially for Basic and Premium subscriptions, as evidenced by the cancellation rates.
+
+To enhance customer satisfaction and retention, the subscription service could consider:
+
+Implementing loyalty programs or incentives to encourage longer subscription durations, particularly for Basic subscribers.
+Conducting targeted marketing campaigns based on regional preferences to optimize revenue generation.
+Analyzing the reasons behind cancellations to address potential service gaps or customer dissatisfaction.
+Additionally, understanding seasonal trends can help tailor marketing efforts to peak subscription months, maximizing engagement during times when customers are most likely to subscribe.
+
+Overall, leveraging these observations can inform strategic decisions to improve customer engagement, optimize revenue, and reduce cancellation rates, ultimately driving the subscription service's growth and profitability.
 This project provides valuable insights into customer behaviour, preferences, and retention patterns, supporting data-driven decision-making for the subscription service. The Power BI dashboard enables stakeholders to interact with the data and explore key findings.
 
 
