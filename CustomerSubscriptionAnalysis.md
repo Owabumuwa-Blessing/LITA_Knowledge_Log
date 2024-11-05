@@ -56,7 +56,7 @@ The dataset provides subscription details for each customer, with the following 
 ![PQ_C1-C](https://github.com/user-attachments/assets/740fc309-8f69-48a3-b090-83c87a551647)
 
 
-Five essential measures were created: Average Subscription Duration, Total Customers, Total Revenue by Subscription Type, Active Subscriptions, Canceled Subscriptions, Most Popular Subscription Type, Count of Subscription Types,  and
+Seven essential measures were created: Average Subscription Duration, Total Customers, Total Revenue by Subscription Type, Active Subscriptions, Canceled Subscriptions, Most Popular Subscription Type and Count of Subscription Types.
 
 ## Analysis Techniques
 **1. Excel**
