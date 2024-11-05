@@ -90,6 +90,7 @@ Once the dataset was loaded into SQL Server, I wrote SQL queries to extract mean
 [Here](LITA_CAPSTONE_PROJECT.sql) is a link to the SQL script.
 
 ## Power BI Dashboard
+Dive into the dashboard [here](https://app.powerbi.com/links/ogu2j3Q5A-?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) for an in-depth view of the data. Interact with various metrics and visualizations to explore patterns, trends, and insights that can guide informed decisions. Engage with specific elements to customize your perspective and gain a comprehensive understanding of the dataset.
 
 ## Key Insights
 
