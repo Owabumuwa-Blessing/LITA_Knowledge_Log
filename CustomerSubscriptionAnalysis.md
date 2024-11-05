@@ -104,7 +104,9 @@ Dashboard page 2
 
 2. **Revenue by Subscription Type**:
     - The total revenue is ₦67,540,175.
-    - The Basic subscription generates the highest revenue due to its popularity, despite having a lower average revenue per customer.
+    - The Basic subscription generates the highest revenue (₦33,776,735) due to its popularity, despite having a lower average revenue.
+        ![image](https://github.com/user-attachments/assets/882db570-f546-4bd0-8b5a-37afd2390952)
+
     - Premium and Standard subscriptions contribute substantial revenue as well, indicating a smaller but committed customer segment.
  
 3. **Regional Insights**:
