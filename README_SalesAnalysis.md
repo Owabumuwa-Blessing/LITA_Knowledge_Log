@@ -62,7 +62,7 @@ The dataset used for this project contains transactional sales data from a retai
 Once the dataset was loaded into SQL Server, I wrote SQL queries to extract detailed insights and answer specific business questions:
 [Here](LITA_CAPSTONE_PROJECT.sql) is a link to the SQL script.
 
-3. **Power BI: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
+3. **Power BI**: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
 
 ## Dashboard
 Explore the dashboard [here](https://app.powerbi.com/links/-qoyjEOn_x?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) for a more detailed view of the data and interact with specific metrics and visualizations to gain deeper insights. 
