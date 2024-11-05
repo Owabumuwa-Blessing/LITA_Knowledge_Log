@@ -40,9 +40,9 @@ The dataset used for this project contains transactional sales data from a retai
 ![PQ_SalesData](https://github.com/user-attachments/assets/dc3a4242-4902-4d1d-8ff7-e23b9be7c767)
 
 
-3. Exploratory Data Analysis: Using Excel and SQL, I performed initial analysis to understand the sales distribution across different regions and product categories.
+2. Exploratory Data Analysis: Using Excel and SQL, I performed initial analysis to understand the sales distribution across different regions and product categories.
 
-* Excel: Exploration and Summary
+* **Excel**
   * Pivot Tables: Using Excel pivot tables, I performed an initial exploration of the sales data, summarizing key metrics.
     - Revenue Analysis: Calculate total revenue by product and by region to identify top earners.
     - Sales Count: Assess quantity sold by region and product to understand sales dynamics.
@@ -58,23 +58,26 @@ The dataset used for this project contains transactional sales data from a retai
     `=SUMIF(Region, "RegionName", Revenue)`
 ![](LITA_EXCEL_IMAGE/Excel_S1.png)
 
-* SQL: Querying and Analysis
+* **SQL**
 Once the dataset was loaded into SQL Server, I wrote SQL queries to extract detailed insights and answer specific business questions:
 [Here](LITA_CAPSTONE_PROJECT.sql) is a link to the SQL script.
 
-3. Dashboard: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
+3. **Power BI: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
 
 ## Dashboard
-Explore the dashboard for a more detailed view of the data and interact with specific metrics and visualizations to gain deeper insights.
-[Here](https://app.powerbi.com/links/-qoyjEOn_x?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) is the link. 
+Explore the dashboard [here](https://app.powerbi.com/links/-qoyjEOn_x?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) for a more detailed view of the data and interact with specific metrics and visualizations to gain deeper insights. 
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(1).jpg)
+Dashboard page 1
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(2).jpg)
+Dashboard page 2
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(3).jpg)
+Dashboard page 3
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(4).jpg)
+Dashboard page 4
 
 ## Dashboard Overview
 This dashboard provides a comprehensive analysis of sales performance across multiple dimensions, including time (monthly and quarterly trends), product categories, and regional contributions. Key visuals and metrics are organized to offer quick insights and in-depth analysis for stakeholders to make informed business decisions. Below is an overview of the key sections and their focus:
@@ -121,11 +124,8 @@ This dashboard provides a comprehensive analysis of sales performance across mul
    - An overall yearly growth rate of 9% suggests a positive sales trend but highlights the need for focused strategies to maintain growth across different months and regions.
 
 ## Conclusion
-The analysis highlights clear seasonal sales variations, with peaks in February and August, which may benefit from targeted marketing efforts and inventory planning. The South region emerges as a key market, offering opportunities to further expand sales, while regions like the West show potential for growth with strategic investment.
 
-Shoes and Hats stand out as high-demand products, suggesting room for new styles or variants in these categories. Additionally, addressing the low sales in specific months, particularly April and the final quarter, through promotions or region-specific product strategies could help stabilize revenue throughout the year.
-
-This dashboard provides valuable insights to support data-driven decisions in inventory management, marketing strategies, and product development, with a focus on high-performing regions and products, as well as addressing seasonal dips.
+This analysis highlights the South region as a core market, Shoes and Hats as top-performing products, and February and August as peak sales months. These insights support targeted marketing, pricing adjustments, and strategic inventory planning. Going forward, deeper analysis, such as customer segmentation and sales forecasting, could offer further valuable insights to drive business growth.
 
 ## Recommendations
 * Pricing Strategy: Conduct a review of pricing for products with high sales volumes but lower revenue to enhance overall profitability. Adjust prices strategically to improve margins while maintaining sales momentum.
