@@ -90,7 +90,7 @@ Once the dataset was loaded into SQL Server, I wrote SQL queries to extract mean
 [Here](LITA_CAPSTONE_PROJECT.sql) is a link to the SQL script.
 
 ## Power BI Dashboard
-Dive into the dashboard [here](https://app.powerbi.com/links/ogu2j3Q5A-?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) for an in-depth view of the data. Interact with various metrics and visualizations to explore patterns, trends, and insights that can guide informed decisions. Engage with specific elements to customize your perspective and gain a comprehensive understanding of the dataset.
+Dive into the dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiYzQ2NWJkMTMtYmRmMS00ZjM5LTg2ODktYjcxMmM0NzU0MDhmIiwidCI6ImY5ZGJiNDNlLWNiZmItNGIxMy1iNDY2LWMyNjMwYmQ0NzU4NCJ9) for an in-depth view of the data. Interact with various metrics and visualizations to explore patterns, trends, and insights that can guide informed decisions. Engage with specific elements to customize your perspective and gain a comprehensive understanding of the dataset.
 
 ![Capstone Project (CustomerData)_1](https://github.com/user-attachments/assets/4615e88e-a410-4bec-81d7-ab425209ea2d)
 Dashboard page 1
