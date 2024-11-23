@@ -228,10 +228,6 @@ I incorporated three conditional columns into the dataset: one for attrition cou
 ## Dashboard
 ![HR DASHBOARD](https://github.com/user-attachments/assets/ce882162-d935-4a25-9ff8-b723a58c5aab)
 
-![HR DASHBOARD 2](https://github.com/user-attachments/assets/76852903-2332-4e40-b05a-dee3794474e9)
-
-![HR DASHBOARD 3](https://github.com/user-attachments/assets/509153d0-d520-47bf-838f-3069951a3e0f)
-
 ## Observations
 ## **1. Overview Statistics**
  - Number of Employees: There are 1,470 employees in total, with 237 leaving (attrition), resulting in 1,233 active employees.
