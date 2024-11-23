@@ -65,7 +65,7 @@ Once the dataset was loaded into SQL Server, I wrote SQL queries to extract deta
 3. **Power BI**: Using Power BI, I developed visuals to highlight essential metrics, including total revenue, top-performing products, regional sales distribution, and monthly sales trends. I added a new column for **Revenue** using Custom Coloumn and created 10 measures: Average Sales, Average Selling Price, Total Revenue, Total Transactions, Regional Sales Percentage, Sales Growth Rate, Highest Selling Product, Monthly Sales Current Year, Last Quarter Sales, and No Sales in Last Quarter.
 
 ## Dashboard
-Explore the dashboard [here](https://app.powerbi.com/links/-qoyjEOn_x?ctid=f9dbb43e-cbfb-4b13-b466-c2630bd47584&pbi_source=linkShare) for a more detailed view of the data and interact with specific metrics and visualizations to gain deeper insights. 
+Explore the dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiODcwYWNmZDMtNGM1YS00ODM3LTk3NmItYTgyYWFmNGY0Yjg2IiwidCI6ImY5ZGJiNDNlLWNiZmItNGIxMy1iNDY2LWMyNjMwYmQ0NzU4NCJ9) for a more detailed view of the data and interact with specific metrics and visualizations to gain deeper insights. 
 
 ![](https://github.com/OJFEB/LITA_Knowledge_Log/blob/Learning_Log/LITA_CAPSTONE_PROJECT_DASHBOARD/SalesData/Capstone%20Project%20(Sales)_%20(1).jpg)
 Dashboard page 1
